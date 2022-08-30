@@ -10,6 +10,10 @@
 - 03_outer_join_220820
 - 04_non_equi_n_cross_join_220820
 ####
+#### ► [02_basic_date_n_timestamp_interval]
+- 01_date_n_timestamp_n_char_220830
+- 02_extract_n_date_part_220830
+####
 ## Reference
 - [Inflearn] 데이터 분석 SQL Fundamentals 강의
 - https://www.postgresqltutorial.com/

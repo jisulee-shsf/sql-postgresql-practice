@@ -22,7 +22,7 @@ select pg_typeof(to_timestamp('2022-01-01', 'yyyy-mm-dd')::text); -- > text type
 select to_timestamp('2022-01-01 14:15:30', 'yyyy-mm-dd hh24:mi:ss')::date;
 select pg_typeof(to_timestamp('2022-01-01 14:15:30', 'yyyy-mm-dd hh24:mi:ss')::date); -- > date type
 
--- Q3. to_date / to_timestamp / to_char 실습 진행 
+-- Q3. to_date / to_timestamp / to_char 실습
 with
 temp_01 as(
 select a.*, to_char(hiredate, 'yyyy-mm-dd') as hiredate_str

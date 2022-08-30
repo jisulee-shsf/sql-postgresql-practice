@@ -1,4 +1,4 @@
--- Q1. 주문정보가 없는 고객의 고객/주문정보 추출하기
+-- Q1. 주문정보가 없는 고객의 고객 / 주문정보 추출하기
 select a.*, b.*
 from nw.customers a
 	left outer join nw.orders b on a.customer_id = b.customer_id

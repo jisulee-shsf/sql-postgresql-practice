@@ -1,8 +1,8 @@
--- Q1-1. 문자열을 formatting에 따라 date로 변환하기
+-- Q1-1. 문자열을 formatting에 따라 date로 출력하기
 select to_date('2022-01-01', 'yyyy-mm-dd');
 select pg_typeof(to_date('2022-01-01', 'yyyy-mm-dd')); -- > type : date
 
--- Q1-2. 문자열을 formatting에 따라 timestamp로 변환하기
+-- Q1-2. 문자열을 formatting에 따라 timestamp로 출력하기
 select to_timestamp('2022-01-01', 'yyyy-mm-dd');
 select pg_typeof(to_timestamp('2022-01-01', 'yyyy-mm-dd')); -- > type : timestamp
 

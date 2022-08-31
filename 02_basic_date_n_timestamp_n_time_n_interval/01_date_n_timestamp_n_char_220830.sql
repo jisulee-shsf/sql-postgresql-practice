@@ -10,8 +10,6 @@ select pg_typeof(to_timestamp('2022-01-01', 'yyyy-mm-dd')); -- > type : timestam
 select to_timestamp('2022-01-01 14:15:30', 'yyyy-mm-dd hh24:mi:ss');
 select pg_typeof(to_timestamp('2022-01-01 14:15:30', 'yyyy-mm-dd hh24:mi:ss')); -- > type : timestamp
 
-
-
 -- Q2-1. date를 timestamp로 형 변환하기
 select to_date('2022-01-01', 'yyyy-mm-dd')::timestamp;
 select pg_typeof(to_date('2022-01-01', 'yyyy-mm-dd')::timestamp); -- > type : timestamp
@@ -23,8 +21,6 @@ select pg_typeof(to_timestamp('2022-01-01', 'yyyy-mm-dd')::text); -- > type : te
 -- Q2-3. timestamp를 date로 형 변환하기
 select to_timestamp('2022-01-01 14:15:30', 'yyyy-mm-dd hh24:mi:ss')::date;
 select pg_typeof(to_timestamp('2022-01-01 14:15:30', 'yyyy-mm-dd hh24:mi:ss')::date); -- > type : date
-
-
 
 -- Q3. to_date / to_timestamp / to_char 실습
 with

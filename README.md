@@ -13,7 +13,8 @@
 #### ► [02_basic_date_n_timestamp_n_time_n_interval]
 - 01_date_n_timestamp_n_char_220830
 - 02_extract_n_date_part_220830
-- 03_interval_220831
+- 03_interval_01_220831
+- 04_interval_02_220831
 ####
 ## Reference
 - [Inflearn] 데이터 분석 SQL Fundamentals 강의

@@ -10,8 +10,7 @@ group by deptno
 having avg(sal) >= 2000;
 
 -- Q3. Q2 기준 정보를 with 절로 추출하기
-with 
-temp_01 as(
+with temp_01 as(
 select deptno, max(sal) as max_sal, min(sal) as min_sal, avg(sal) as avg_sal
 from hr.emp
 group by deptno
@@ -28,8 +27,7 @@ group by b.empno
 order by avg_sal DESC;
 
 -- Q5. Q4 기준 정보를 with 절로 추출하기
-with
-temp_01 as(
+with temp_01 as(
 select a.dname, b.empno, b.ename, c.fromdate, c.todate, c.sal
 from hr.dept a
 	join hr.emp b on a.deptno = b.deptno
